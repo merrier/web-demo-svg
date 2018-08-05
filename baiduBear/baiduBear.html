@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百度萌熊</title>
+	<link rel="stylesheet" href="./baiduBear.css">
+</head>
+<body style="transform: scale(.5);">
+    <div class="main">
+        <div class="nose">
+            <div class="nose-be"></div>
+            <div class="nose-mi"></div>
+            <div class="nose-af"></div>
+
+            <div class="l-eye-wrap">
+                <div class="eye eye-be"></div>
+                <div class="eye eye-mi"></div>
+                <div class="eye eye-af"></div>
+
+                <div class="l-eye-face"></div>
+                <div class="l-ear-wrap">
+                    <div class="ear l-ear">
+                        <div class="ear-hole l-ear-hole"></div>
+                        <div class="ear-hole-mask l-ear-hole-mask"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="r-eye-wrap">
+                <div class="eye eye-be"></div>
+                <div class="eye eye-mi"></div>
+                <div class="eye eye-af"></div>
+                <div class="r-eye-face"></div>
+                <div class="r-ear-wrap">
+                    <div class="ear r-ear">
+                        <div class="ear-hole r-ear-hole"></div>
+                        <div class="ear-hole-mask r-ear-hole-mask"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header"></div>
+        <div class="face"></div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="0" height="0">
+        <defs>
+            <filter id="gooey">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="step1"/>
+                <feColorMatrix in="step1" mode="matrix" values="
+                    1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0  
+                    0 0 0 19 -9" result="step2" />
+                <feComposite in="SourceGraphic" in2="step2" operator="atop"/>
+            </filter>
+        </defs>
+    </svg>
+</body>
+<script src='./baiduBear.js'></script>
+</html>
