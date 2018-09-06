@@ -25,3 +25,10 @@
 
 [出处](https://www.w3cplus.com/svg/bear-animation-width-svg.html)
 [在线演示](http://merrier.github.io/web-demo-svg/baiduBear/baiduBear.html)
+
+### SVG编辑器
+
+![SVG编辑器](./Sampleimg/editor.gif)
+
+<!-- [出处](https://www.w3cplus.com/svg/bear-animation-width-svg.html) -->
+[在线演示](http://merrier.github.io/web-demo-svg/editor/index.html)
